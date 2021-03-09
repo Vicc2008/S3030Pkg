@@ -1,0 +1,29 @@
+[Defines]
+  INF_VERSION    = 0x00010005
+  BASE_NAME      = FrameBufferSerialPortLib
+  MODULE_TYPE    = BASE
+  VERSION_STRING = 1.0
+  LIBRARY_CLASS  = SerialPortLib
+
+[Sources.common]
+  FrameBufferSerialPortLib.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  ArmPkg/ArmPkg.dec
+  S3030Pkg/S3030Pkg.dec
+
+[LibraryClasses]
+  ArmLib
+  PcdLib
+  IoLib
+  HobLib
+  CompilerIntrinsicsLib
+  CacheMaintenanceLib
+  BaseMemoryLib
+
+[Pcd]
+  gS3030PkgTokenSpaceGuid.PcdLcdIfBaseAddress
+  gS3030PkgTokenSpaceGuid.PcdFrameBufferWidth
+  gS3030PkgTokenSpaceGuid.PcdFrameBufferHeight
+  gS3030PkgTokenSpaceGuid.PcdEnableScreenSerial
