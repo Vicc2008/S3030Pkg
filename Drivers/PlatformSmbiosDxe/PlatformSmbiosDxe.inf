@@ -29,7 +29,7 @@
   ArmPlatformPkg/ArmPlatformPkg.dec
   MdeModulePkg/MdeModulePkg.dec
   MdePkg/MdePkg.dec
-  PrimeG2Pkg/PrimeG2Pkg.dec
+  S3030Pkg/S3030Pkg.dec
 
 [LibraryClasses]
   ArmLib

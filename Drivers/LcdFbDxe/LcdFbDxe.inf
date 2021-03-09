@@ -16,7 +16,7 @@
   MdeModulePkg/MdeModulePkg.dec
   EmbeddedPkg/EmbeddedPkg.dec
   ArmPkg/ArmPkg.dec
-  PrimeG2Pkg/PrimeG2Pkg.dec
+  S3030Pkg/S3030Pkg.dec
 
 [LibraryClasses]
   BaseLib
@@ -37,9 +37,9 @@
   gEfiCpuArchProtocolGuid
 
 [FixedPcd]
-  gPrimeG2PkgTokenSpaceGuid.PcdFrameBufferWidth
-  gPrimeG2PkgTokenSpaceGuid.PcdFrameBufferHeight
-  gPrimeG2PkgTokenSpaceGuid.PcdLcdIfBaseAddress
+  gS3030PkgTokenSpaceGuid.PcdFrameBufferWidth
+  gS3030PkgTokenSpaceGuid.PcdFrameBufferHeight
+  gS3030PkgTokenSpaceGuid.PcdLcdIfBaseAddress
 
 [Guids]
   gEfiMdeModulePkgTokenSpaceGuid

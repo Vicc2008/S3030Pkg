@@ -28,7 +28,7 @@
   ArmPkg/ArmPkg.dec
   EmbeddedPkg/EmbeddedPkg.dec
   MdePkg/MdePkg.dec
-  PrimeG2Pkg/PrimeG2Pkg.dec
+  S3030Pkg/S3030Pkg.dec
 
 [LibraryClasses]
   BaseLib

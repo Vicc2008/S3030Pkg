@@ -30,7 +30,7 @@
   EmbeddedPkg/EmbeddedPkg.dec
   MdeModulePkg/MdeModulePkg.dec
   MdePkg/MdePkg.dec
-  PrimeG2Pkg/PrimeG2Pkg.dec
+  S3030Pkg/S3030Pkg.dec
 
 [LibraryClasses]
   NonDiscoverableDeviceRegistrationLib
@@ -42,10 +42,10 @@
 [Protocols]
 
 [Pcd]
-  gPrimeG2PkgTokenSpaceGuid.PcdEHCIBase
-  gPrimeG2PkgTokenSpaceGuid.PcdEHCILength
-  gPrimeG2PkgTokenSpaceGuid.PcdIsUsbPortOTG
-  gPrimeG2PkgTokenSpaceGuid.PcdUSBOTGBase
+  gS3030PkgTokenSpaceGuid.PcdEHCIBase
+  gS3030PkgTokenSpaceGuid.PcdEHCILength
+  gS3030PkgTokenSpaceGuid.PcdIsUsbPortOTG
+  gS3030PkgTokenSpaceGuid.PcdUSBOTGBase
   giMXPlatformTokenSpaceGuid.PcdGpioBankMemoryRange
 
 [Depex]
