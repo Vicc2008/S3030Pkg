@@ -12,7 +12,7 @@ Capable of booting Windows. USB Host is functional but external VBus supply is r
 
 ## Boot
 
-You need a few tools from [prinux](https://github.com/zephray/prinux) and my [U-Boot](https://github.com/imbushuo/uboot).
+You need a few tools from [prinux](https://github.com/zephray/prinux) and my [U-Boot](https://github.com/Vicc2008/uboot).
 
 ## License
 
