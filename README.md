@@ -1,4 +1,4 @@
-# PrimeG2Pkg: UEFI for HP Prime G2 calculator
+# S3030Pkg: UEFI for OWN S3030 SmartPhone
 
 I will write a better README later.
 
@@ -8,7 +8,7 @@ I will write a better README later.
 
 ## Current Status
 
-Capable of booting Windows and Linux. USB Host is functional but external VBus supply is required currently.
+Capable of booting Windows. USB Host is functional but external VBus supply is required currently.
 
 ## Boot
 
