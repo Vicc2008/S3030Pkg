@@ -1,4 +1,4 @@
-# PrimeG2Pkg: UEFI for HP Prime G2 calculator
+# FijiPkg: UEFI for Moto E6s
 
 I will write a better README later.
 
